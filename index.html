@@ -1,0 +1,125 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Hra O krok</title>
+	<link href="css/template-1.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/myJS.js"></script>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap" rel="stylesheet">
+<script>
+
+
+</script>
+</head>
+
+<body>
+	<div id="preload-image"></div>
+	<div id="main">
+		<div id="game">
+			<div id="preloader" class="preloader">
+				<h2>Nahrávám...</h2>
+			</div>
+			<div id="layer0" class="scene0 layer"></div>
+			<div id="layer1a" class="scene1a layer"></div>
+			<div id="layer1" class="scene1 layer"></div>
+			<div id="layer2" class="scene2 layer"></div>
+			<div id="layer3" class="scene2 layer"></div>
+			<div id="layer4" class="scene2 layer"></div>
+			<div id="layer5" class="scene3 layer"></div>
+			<div id="layer6" class="scene4 layer"></div>
+			<div id="layer7" class="scene5 layer"></div>
+            <div id="layer8" class="scene6 layer"></div>
+            <div id="layer9" class="scene7 layer"></div>
+            <div id="layer10" class="scene8 layer"></div>
+            <div id="layer11" class="scene9 layer"></div>
+			<div id="layer12" class="scene9 layer"></div>
+			<div id="layer13" class="scene9 layer"></div>
+			<div id="layer14" class="scene9 layer"></div>
+			<div id="layer15" class="scene9 layer"></div>
+			<div id="layer16" class="scene9 layer"></div>
+			<div id="layer17" class="scene9 layer"></div>
+			<div id="layer18" class="scene9 layer"></div>
+			<div id="layer19" class="scene9 layer"></div>
+			<div id="layer20" class="scene9 layer"></div>
+			<div id="layer21" class="scene9 layer"></div>
+			<div id="layer22" class="scene9 layer"></div>
+			<div id="layer23" class="scene9 layer"></div>
+			<div id="layer24" class="scene9 layer"></div>
+			<div id="layer25" class="scene9 layer"></div>
+			<div id="layer26" class="scene9 layer"></div>
+
+		</div>
+		<audio id="uvod" loop><source src="sound/uvod.mp3" type="audio/mpeg"></audio>
+		<audio id="boure" loop><source src="sound/boure.mp3" type="audio/mpeg"></audio>
+		<audio id="blesk"><source src="sound/blesk.mp3" type="audio/mpeg"></audio>
+		<audio id="sopka" loop><source src="sound/sopka.mp3" type="audio/mpeg"></audio>
+		<audio id="vylevani"><source src="sound/vylevani-2.mp3" type="audio/mpeg"></audio>
+		<audio id="zalepeni" ><source src="sound/zalepit-2.mp3" type="audio/mpeg"></audio>
+		<audio id="boom" ><source src="sound/boom-2.mp3" type="audio/mpeg"></audio>
+		<audio id="ice" ><source src="sound/boom-ice-2.mp3" type="audio/mpeg"></audio>
+		<audio id="music" ><source src="sound/music.mp3" type="audio/mpeg"></audio>
+		<audio id="music-win" ><source src="sound/ukulele.mp3" type="audio/mpeg"></audio>
+		<audio id="music-lose" ><source src="sound/konec-hry.wav" type="audio/mpeg"></audio>
+		<div id="info">
+			<div id="text0"></div>
+			<div id="text1"><span>
+				<p>Hubertovu plavbu přeruší bouřka.<br>Jak velká bude?<br><br><strong>Vyberte stupeň invalidity</strong>.</span></p>
+			</div>
+			<div id="text2">
+				<span><p class="var1">Vybrali jste si <strong>první stupeň invalidity</strong>, což&nbsp;v&nbsp;běžném životě znamená třeba, že&nbsp;vám amputovali
+					končetinu, např. po&nbsp;onkologické léčbě, a&nbsp;to&nbsp;po&nbsp;předloktí nebo po&nbsp;koleno.</p>
+				<p class="var2">Vybrali jste si <strong>druhý stupeň invalidity</strong>, což&nbsp;v&nbsp;běžném životě znamená třeba, že&nbsp;máte častěji
+					než jednou za&nbsp;měsíc epileptický záchvat.</p>
+				<p class="var3">Vybrali jste si <strong>třetí stupeň invalidity</strong>, což&nbsp;v&nbsp;běžném životě znamená třeba, že&nbsp;chodíte obden
+					na dialýzu, která&nbsp;je&nbsp;jediným řešením vašich selhávajících ledvin.</p></span>
+			</div>
+			<div id="text3"><span>
+				<p>Prostředí, kde žijeme, reflektuje potřeby zdravé části společnosti. Začíná to u problémů s
+					nedostupností vzdělání, práce nebo infrastruktury.<br><br>Kvůli těmto problémům je pro lidi se zdravotním
+					postižením <strong>obtížné plně se zapojit do společnosti.</strong><br><br>V České republice tvoří lidé se zdravotním
+					postižením skoro 10&nbsp;%&nbsp;populace.</p></span>
+            </div>
+			<div id="text4"><span>
+				<p>Invalidní důchod nahrazuje ztrátu příjmu způsobenou zdravotním postižením. Výše částky závisí na stupni invalidity a na tom, jak dlouho Hubert pracoval. Invalidní důchod dává Hubertovi <strong>jistotu základního příjmu</strong> do rozpočtu.<br><br><strong>Zažádáte s Hubertem o invalidní důchod?</strong></p>
+				
+				</span>
+			</div>
+			<div id="text5"><span>
+				<p>Hubert bydlí v&nbsp;nájemním bytě. <strong>Nájem</strong>&nbsp;mu udělal pořádnou díru v&nbsp;rozpočtu! Velikost díry závisí na
+					regionu, kde&nbsp;žije a&nbsp;zda bydlí sám nebo s&nbsp;dalšími lidmi.<br><br><strong>Pomůžete Hubertovi zažádat o&nbsp;příspěvěk na&nbsp;bydlení?</strong></p></span>
+			</div>
+			<div id="text6"><span>
+				<p>Hubert dostal <strong>příspěvek na bydlení</strong>, který mu pomůže s náklady na <strong>nájem</strong>. Aby ho dostal, tak nájem musí
+					tvořit víc než 30&nbsp;% čistého příjmu jeho domácnosti.<br><br>Průměrná výše příspěvku na bydlení je v&nbsp;současné
+					době zhruba 5&nbsp;600&nbsp;Kč měsíčně.</p></span>
+			</div>
+			<div id="text7"><span>
+				<p>Huberta neohrožuje jen&nbsp;nájem! K&nbsp;finančnímu zajištění potřebuje spoustu dalších věcí, jako jsou
+					<strong>potraviny, energie nebo peníze na&nbsp;léky</strong>. Aby&nbsp;všechno zvládl, potřebuje práci. Jeho pracovní pozice by
+					měla být přizpůsobená jeho potřebám tak, aby&nbsp;ji mohl co&nbsp;nejlépe vykonávat.<br><br>
+					Pro&nbsp;lidi s&nbsp;invaliditou prvního a&nbsp;druhého stupně je&nbsp;medián hrubé měsíční mzdy 28&nbsp;003&nbsp;Kč, u&nbsp;třetího
+				stupně je&nbsp;to&nbsp;26&nbsp;328&nbsp;Kč, pro&nbsp;většinovou populaci je&nbsp;to&nbsp;41&nbsp;062&nbsp;Kč.
+				<strong>Na&nbsp;jak velký úvazek necháte Huberta pracovat?</strong></p></span>
+			</div>
+			<div id="text8"><span>
+				<p>Občas se&nbsp;může stát, že&nbsp;v&nbsp;rámci přezkumu invalidity po&nbsp;roce nebo dvou třech letech od&nbsp;přiznání Lékařská posudková služba <strong>odebere invalidní důchod</strong> lidem se&nbsp;zdravotním postižením, kteří <strong>pracují na&nbsp;plný úvazek</strong>. To&nbsp;se&nbsp;právě stalo Hubertovi.<br><br> 
+				<strong>Snižte Hubertovi úvazek, aby&nbsp;invalidní důchod dostal zpátky.</strong></p>
+			</span>
+			</div>
+			<div id="text9"><span><p>Hubert radši bude pracovat méně, aby o&nbsp;invalidní důchod nepřišel.</p></span></div>
+			<div id="text10"><span><p>Hubert má zpátky invalidní důchod. Bez příjmu z práce, ale nemá dost peněz na všechny svoje potřeby.</p></span></div>
+			<div id="text11"><span><p>Výborně, podařilo se vám Huberta zachránit! Může si dovolit všechny základní potřeby a&nbsp;ještě mu trocha zbude na zábavu. <br><br><strong>Dobrá práce!</strong></p></span></div>
+			<div id="text12"><span><p>Díru v rozpočtu se Hubertovi nepovedlo opravit. Bez příjmu z&nbsp;práce nezvládá zajistit své základní potřeby, končí proto pod hladinou.<br><br><strong>Zkuste to znovu!</strong></p></span></div>
+		</div>
+	</div>
+
+</body>
+
+</html>
